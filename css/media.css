@@ -1,0 +1,35 @@
+@media screen and (max-width: 760px){
+   header{
+    flex-direction: column;
+    justify-content: center;
+   }
+
+   .title{
+        font-size: 10px;
+        text-align: center;
+        
+   }
+
+   .img-viewer{
+        display: none;
+   }
+   .img-about{
+    display: none;
+   }
+
+   .container-item{
+    flex-direction: column;
+   }
+
+   .container-item img{
+    padding: 40px 0 30px 0;
+   }
+
+   .list-planos{
+     flex-direction: column;
+   }
+
+   .about-me{
+     text-align: center;
+   }
+}
